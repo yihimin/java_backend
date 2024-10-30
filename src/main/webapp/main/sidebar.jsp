@@ -7,7 +7,7 @@
     <div class="sidebar-brand-icon rotate-n-15">
       <i class="fas fa-laugh-wink"></i>
     </div>
-    <div class="sidebar-brand-text mx-3">유응구 <sup>2</sup></div>
+    <div class="sidebar-brand-text mx-3">이희민 <sup>2</sup></div>
   </a>
 
   <!-- Divider -->
