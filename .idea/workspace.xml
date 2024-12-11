@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6ebbe0-4a13-40d8-b86d-acca42c59f92" name="Changes" comment="V6">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/controller/JDBCTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/model/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/repository/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/repository/DAOImplMysql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/repository/DAOImplOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/repository/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/repository/MemberDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/service/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/service/MemberServiceImpl.java" afterDir="false" />
+    <list default="true" id="9d6ebbe0-4a13-40d8-b86d-acca42c59f92" name="Changes" comment="V7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/controller/JDBCTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yihimin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yihimin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yihimin/java_backend.git",
-    "accountId": "8a995618-7aef-4256-905d-81bf2bd1a655"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yihimin/java_backend.git&quot;,
+    &quot;accountId&quot;: &quot;8a995618-7aef-4256-905d-81bf2bd1a655&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -69,9 +58,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2pjrjr07WRoW8BQjuhaO6chPFhd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -85,7 +74,7 @@
     "Tomcat Server.Tomcat 10.1.28.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/idusw2b/himin/src/main/java/idusw/javaweb/bapi200412345",
+    "last_opened_file_path": "C:/idujavaweb-b",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -209,7 +198,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733290463282</updated>
-      <workItem from="1733290464333" duration="11048000" />
+      <workItem from="1733290464333" duration="11798000" />
+      <workItem from="1733882051985" duration="1159000" />
+      <workItem from="1733893020540" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="V6">
       <option name="closed" value="true" />
@@ -219,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733291507858</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V7">
+      <option name="closed" value="true" />
+      <created>1733301757979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733301757979</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V7">
+      <option name="closed" value="true" />
+      <created>1733301771271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733301771271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +245,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V6" />
-    <option name="LAST_COMMIT_MESSAGE" value="V6" />
+    <MESSAGE value="V7" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7" />
   </component>
 </project>

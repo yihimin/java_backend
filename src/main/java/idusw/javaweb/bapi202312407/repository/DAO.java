@@ -1,4 +1,4 @@
-package idusw.javaweb.bapi200412345.repository;
+package idusw.javaweb.bapi202312407.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

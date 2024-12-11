@@ -1,4 +1,4 @@
-package idusw.javaweb.bapi200412345.model;
+package idusw.javaweb.bapi202312407.model;
 
 import java.time.LocalDateTime;
 import java.util.Date;

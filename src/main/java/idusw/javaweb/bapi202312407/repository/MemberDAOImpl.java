@@ -1,6 +1,6 @@
-package idusw.javaweb.bapi200412345.repository;
+package idusw.javaweb.bapi202312407.repository;
 
-import idusw.javaweb.bapi200412345.model.Member;
+import idusw.javaweb.bapi202312407.model.Member;
 
 import java.sql.*;
 import java.util.List;

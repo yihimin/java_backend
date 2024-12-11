@@ -1,4 +1,4 @@
-package idusw.javaweb.bapi200412345;
+package idusw.javaweb.bapi202312407;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.sql.*;
 
 @WebServlet(name = "memberController", urlPatterns = {"/login"})
-public class MemberController extends HttpServlet {
+public class LoginController extends HttpServlet {
     // GET 요청을 처리하는 메서드
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("doGet");

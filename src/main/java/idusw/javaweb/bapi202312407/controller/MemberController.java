@@ -1,9 +1,7 @@
-package idusw.javaweb.bapi200412345.controller;
+package idusw.javaweb.bapi202312407.controller;
 
-import idusw.javaweb.bapi200412345.model.Member;
-import idusw.javaweb.bapi200412345.repository.DAOImplMysql;
-import idusw.javaweb.bapi200412345.repository.DAOImplOracle;
-import idusw.javaweb.bapi200412345.repository.MemberDAOImpl;
+import idusw.javaweb.bapi202312407.model.Member;
+import idusw.javaweb.bapi202312407.repository.MemberDAOImpl;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -13,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet( urlPatterns = {"/main/oracle", "/main/mysql"})
-public class JDBCTestController extends HttpServlet {
+public class MemberController extends HttpServlet {
     protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         String uri = request.getRequestURI();
