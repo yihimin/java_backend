@@ -3,33 +3,24 @@ package idusw.javaweb.bapi202312407.repository;
 import idusw.javaweb.bapi202312407.model.Member;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MemberDAOImpl extends DAOImplMysql implements MemberDAO {
-    private Connection conn = null;
-    private Statement stmt = null;
-    private PreparedStatement pstmt = null;
-    private ResultSet rs = null;
-
-    public MemberDAOImpl(){
-        conn = getConnection();
+    @Override
+    public int create(Member member) {
+        return 0; // 구현 필요
     }
 
     @Override
-    public int create(Member member) {
-        return 0;
-    }
-
     public Member read(Member member) {
         Member result = null;
         String sql = "SELECT * FROM member WHERE id = ? AND pw = ?";
 
-        try {
-            pstmt = conn.prepareStatement(sql);
+        try (Connection conn = getConnection();
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, member.getId());
             pstmt.setString(2, member.getPw());
-            rs = pstmt.executeQuery();
-
             try (ResultSet rs = pstmt.executeQuery()) {
                 if (rs.next()) {
                     result = new Member();
@@ -38,9 +29,6 @@ public class MemberDAOImpl extends DAOImplMysql implements MemberDAO {
                     result.setPw(rs.getString("pw"));
                     result.setName(rs.getString("name"));
                     result.setEmail(rs.getString("email"));
-                    //result.setBirthday(rs.getDate("birthday"));
-                    //result.setCtime(rs.getTimestamp("ctime").toLocalDateTime());
-                    //result.setRtime(rs.getTimestamp("rtime").toLocalDateTime());
                 }
             }
         } catch (SQLException e) {
@@ -51,16 +39,34 @@ public class MemberDAOImpl extends DAOImplMysql implements MemberDAO {
 
     @Override
     public List<Member> readList() {
-        return List.of();
+        List<Member> memberList = new ArrayList<>();
+        String sql = "SELECT * FROM member";
+
+        try (Connection conn = getConnection();
+             PreparedStatement pstmt = conn.prepareStatement(sql);
+             ResultSet rs = pstmt.executeQuery()) {
+            while (rs.next()) {
+                Member retMember = new Member();
+                retMember.setSeq(rs.getInt("seq"));
+                retMember.setId(rs.getString("id"));
+                retMember.setPw(rs.getString("pw"));
+                retMember.setName(rs.getString("name"));
+                retMember.setEmail(rs.getString("email"));
+                memberList.add(retMember);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return memberList;
     }
 
     @Override
     public int update(Member member) {
-        return 0;
+        return 0; // 구현 필요
     }
 
     @Override
     public int delete(Member member) {
-        return 0;
+        return 0; // 구현 필요
     }
 }

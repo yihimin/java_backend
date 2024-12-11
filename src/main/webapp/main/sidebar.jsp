@@ -84,6 +84,7 @@
         <a class="collapse-item" href="../pages/login.jsp">Login</a>
         <a class="collapse-item" href="../pages/register.jsp">Register</a>
         <a class="collapse-item" href="../pages/forgot-password.jsp">Forgot Password</a>
+        <a class="collapse-item" href="../member/list">Member List</a>
         <div class="collapse-divider"></div>
         <h6 class="collapse-header">Other Pages:</h6>
         <a class="collapse-item" href="../pages/404.jsp">404 Page</a>

@@ -4,9 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6ebbe0-4a13-40d8-b86d-acca42c59f92" name="Changes" comment="V7">
+    <list default="true" id="9d6ebbe0-4a13-40d8-b86d-acca42c59f92" name="Changes" comment="V9">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/PRO_UPGRADE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/undraw_posting_photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/undraw_profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/undraw_profile_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/undraw_profile_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/undraw_profile_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/undraw_rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/forgot-password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tables.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/utilities-animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/utilities-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/utilities-color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/utilities-other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/navs/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/navs/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/navs/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/sb-admin-2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_rotate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scss/utilities/_text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi202312407/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi202312407/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi202312407/repository/MemberDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi202312407/repository/MemberDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main/sidebar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +86,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="bapi202312407" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -68,7 +141,7 @@
     "Tomcat Server.Tomcat 10.1.28.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/idusw2b/himin",
+    "last_opened_file_path": "C:/idusw2b/241204",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,7 +161,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\idusw2b\himin\src\main\webapp\main" />
       <recent name="C:\idusw2b\himin\src\main\java\idusw\javaweb\bapi200412345" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\idusw2b\himin\src\main\webapp" />
+      <recent name="C:\idusw2b\himin\src\main\webapp\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,7 +279,7 @@
       <workItem from="1733896209522" duration="73000" />
       <workItem from="1733896325397" duration="23000" />
       <workItem from="1733896386885" duration="47000" />
-      <workItem from="1733896441313" duration="128000" />
+      <workItem from="1733896441313" duration="6622000" />
     </task>
     <task id="LOCAL-00001" summary="V6">
       <option name="closed" value="true" />
@@ -227,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733301771271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V7">
+      <option name="closed" value="true" />
+      <created>1733896629052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733896629052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
