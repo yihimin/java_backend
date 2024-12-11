@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d6ebbe0-4a13-40d8-b86d-acca42c59f92" name="Changes" comment="V7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/controller/JDBCTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idusw/javaweb/bapi200412345/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +23,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="bapi200412345" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -74,12 +68,16 @@
     "Tomcat Server.Tomcat 10.1.28.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/idujavaweb-b",
+    "last_opened_file_path": "C:/idusw2b/himin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -97,11 +95,11 @@
     <configuration name="Tomcat 10.1.28" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.28" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : idusw.javaweb : bapi200412345-1.0.war">
+        <file path="$PROJECT_DIR$/build/libs/bapi202312407-1.0.war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
-        </artifact>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="b9f3eb44-84b6-4ac7-8473-5277ea37f8b6" />
@@ -176,9 +174,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : idusw.javaweb : bapi200412345-1.0.war" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
   </component>
@@ -200,7 +196,12 @@
       <updated>1733290463282</updated>
       <workItem from="1733290464333" duration="11798000" />
       <workItem from="1733882051985" duration="1159000" />
-      <workItem from="1733893020540" duration="1833000" />
+      <workItem from="1733893020540" duration="2541000" />
+      <workItem from="1733895596590" duration="593000" />
+      <workItem from="1733896209522" duration="73000" />
+      <workItem from="1733896325397" duration="23000" />
+      <workItem from="1733896386885" duration="47000" />
+      <workItem from="1733896441313" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="V6">
       <option name="closed" value="true" />
